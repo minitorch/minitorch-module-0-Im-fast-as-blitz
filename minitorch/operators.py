@@ -129,8 +129,8 @@ def zipWith(func: Callable[[float, float], float], arr1: Iterable[float], arr2: 
     a_iter = iter(arr1)
     b_iter = iter(arr2)
 
-    val_a = 0
-    val_b = 0
+    val_a = 0.0
+    val_b = 0.0
 
     alive_a = True
     alive_b = True
